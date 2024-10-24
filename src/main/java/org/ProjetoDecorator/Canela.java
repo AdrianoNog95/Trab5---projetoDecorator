@@ -1,4 +1,4 @@
-package org.ProjetoDecorator.src;
+package org.ProjetoDecorator;
 
 public class Canela extends BebidaDecorator {
 
@@ -13,6 +13,6 @@ public class Canela extends BebidaDecorator {
 
     @Override
     public double custo() {
-        return bebida.custo() + 0.25;  // Adiciona o custo da canela
+        return bebida.custo() + 0.25;
     }
 }

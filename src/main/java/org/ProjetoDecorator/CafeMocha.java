@@ -1,4 +1,4 @@
-package org.ProjetoDecorator.src;
+package org.ProjetoDecorator;
 
 public class CafeMocha implements Bebida {
 
@@ -9,6 +9,6 @@ public class CafeMocha implements Bebida {
 
     @Override
     public double custo() {
-        return 5.00;  // Custo do mocha
+        return 5.00;
     }
 }

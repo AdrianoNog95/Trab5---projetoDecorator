@@ -1,4 +1,4 @@
-package org.ProjetoDecorator.src;
+package org.ProjetoDecorator;
 
 public abstract class BebidaDecorator implements Bebida {
     protected Bebida bebida;
